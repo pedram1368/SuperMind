@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#0099cc"
+    android:id="@+id/taghsim_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pedram.hoshebartar.tafrigh_acrivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/prompt_color">
+
+
+        <android.support.v7.widget.AppCompatCheckedTextView
+            android:id="@+id/taghsim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Division"
+            android:textColor="@color/background_answer_textview"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:layout_marginRight="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/taghsim_back_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="false"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_reply_black_24dp"
+            />
+
+        <Button
+            android:id="@+id/taghsim_setting"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_settings_black_24dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+        <Switch
+            android:id="@+id/taghsim_speech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/taghsim"
+            android:layout_centerVertical="true"
+            android:text="speech" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:id="@+id/taghsim_btn_play"
+            android:padding="8dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"/>
+
+        <Chronometer
+            android:id="@+id/taghsim_chronometer"
+            android:layout_marginLeft="50dp"
+            android:textSize="32sp"
+            android:textColor="#6a029e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:textSize="18sp"
+            android:background="@drawable/ghalat"
+            android:id="@+id/tv_false_taghsim"
+            android:gravity="center"
+            android:textColor="@color/incorrect_answer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="0"/>
+        <TextView
+            android:layout_toLeftOf="@id/tv_false_taghsim"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/correct_answer"
+            android:id="@+id/tv_true_taghsim"
+            android:gravity="center"
+            android:background="@drawable/dorost"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text="0"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:textColor="@color/prompt_color"
+            android:textStyle="bold"
+            android:id="@+id/tv_taghsim_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="press the play!"
+            android:textSize="40sp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal"
+            />
+    </RelativeLayout>
+</LinearLayout>
+

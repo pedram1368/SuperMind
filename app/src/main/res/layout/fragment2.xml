@@ -1,0 +1,164 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:gravity="bottom"
+    android:paddingBottom="10dp">
+
+
+
+
+    <Button
+        android:id="@+id/one2"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+
+        android:layout_marginBottom="8dp"
+
+        />
+    <Button
+        android:id="@+id/two2"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        />
+    <Button
+        android:id="@+id/three2"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/four2"
+        android:text="4"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/one2"
+        android:layout_marginBottom="8dp"
+
+        />
+    <Button
+        android:id="@+id/five2"
+        android:text="5"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/two2"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/six2"
+        android:text="6"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/three2"
+        android:layout_marginBottom="8dp"
+        android:layout_alignParentRight="true"
+
+        />
+
+    <Button
+        android:id="@+id/seven2"
+        android:text="7"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/four2"
+        android:layout_marginBottom="8dp"
+
+        />
+    <Button
+        android:id="@+id/eight2"
+        android:text="8"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/five2"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:id="@+id/nine2"
+        android:text="9"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/six2"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="8dp"
+        />
+
+
+    <Button
+        android:id="@+id/clear2"
+        android:text="C"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:layout_below="@+id/seven2"
+        />
+    <Button
+        android:id="@+id/zero2"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="@drawable/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/eight2"
+        android:layout_centerHorizontal="true"/>
+    <ImageView
+        android:id="@+id/frag_check2"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:src="@drawable/ic_check_black_24dp"
+        android:scaleType="fitCenter"
+        android:padding="10dp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/nine2"
+        />
+
+</RelativeLayout>
+

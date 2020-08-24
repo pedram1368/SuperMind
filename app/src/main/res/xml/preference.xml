@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ListPreference
+        android:key="first_number"
+        android:title="First number"
+        android:entries="@array/Digits"
+        android:entryValues="@array/Value_for_digits"
+        android:defaultValue="89"
+        android:summary="%s"
+         />
+    <ListPreference
+        android:key="second_number"
+        android:title="Second number"
+        android:entries="@array/Digits"
+        android:entryValues="@array/Value_for_digits"
+        android:defaultValue="89"
+        android:summary="%s"
+         />
+    <ListPreference
+        android:key="appear_time"
+        android:title="Appear time"
+        android:entries="@array/appear_time"
+        android:entryValues="@array/val_appear_time"
+        android:defaultValue="2000"
+        android:summary="%s"
+         />
+</PreferenceScreen>

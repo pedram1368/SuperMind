@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/digit"
+        android:entryValues="@array/digit"
+        android:key="number_of_digit"
+        android:summary="%s"
+        android:title="Digits" />
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/appear_time_reverse"
+        android:entryValues="@array/val_appear_time_reverse"
+        android:key="appear_time_reverse"
+        android:title="Appear time"
+        android:summary="%s"
+        />
+</PreferenceScreen>

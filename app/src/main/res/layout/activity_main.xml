@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0099cc"
+
+    tools:context="com.example.pedram.hoshebartar.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/prompt_color">
+
+
+        <android.support.v7.widget.AppCompatCheckedTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super Mind"
+            android:textColor="@color/background_answer_textview"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="false"
+            android:layout_centerVertical="true"
+
+            android:background="@drawable/ic_reply_black_24dp"
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        >
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select your exercise"
+            android:textStyle="italic"
+            android:textColor="@color/background_answer_textview"
+            android:textSize="30sp"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="0.01"
+            />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp">
+        <Button
+            android:id="@+id/btn_zarb"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:background="@drawable/b"
+            android:text="MULTIPLICATION"
+            android:maxLines="1"/>
+
+        <Button
+            android:id="@+id/btn_jam"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="ADDITION"
+            android:background="@drawable/b"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/btn_taghsim"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="DIVISION"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:background="@drawable/b"
+            android:layout_below="@+id/btn_zarb"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btn_tafrigh"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="SUBTRACTION"
+            android:textColor="#ffffff"
+            android:background="@drawable/b"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn_jam"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:id="@+id/btn_reverse"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="REVERSE"
+            android:textColor="#ffffff"
+            android:background="@drawable/b"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/btn_taghsim"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:id="@+id/btn_double"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="DOUBLE"
+            android:textColor="#ffffff"
+            android:background="@drawable/b"
+            android:textSize="20sp"
+            android:layout_below="@id/btn_taghsim"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:id="@+id/btn_guide"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="GUIDE"
+            android:textColor="#ffffff"
+            android:background="@drawable/b"
+            android:textSize="25sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="40dp"
+            />
+
+        <Button
+            android:id="@+id/btn_record"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="RECORD"
+            android:textColor="#ffffff"
+            android:background="@drawable/b"
+            android:textSize="25sp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

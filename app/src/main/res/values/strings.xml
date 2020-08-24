@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Super mind</string>
+    <string name="jam">جمع</string>
+    <string name="main">ذهن برتر</string>
+    <string name="zarb">ضرب</string>
+    <string name="tafrigh">تفریق</string>
+    <string name="taghsim">تقسیم</string>
+    <string name="jam1">جمع</string>
+    <string name="start">Super Mind</string>
+    <string name="tamrin">تمرین را انتخاب کنید</string>
+
+    <string-array name="Digits">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="Value_for_digits">
+        <item>9</item>
+        <item>89</item>
+        <item>899</item>
+        <item>8999</item>
+    </string-array>
+
+    <string-array name="appear_time">
+        <item>1 second</item>
+        <item>2 second</item>
+        <item>3 second</item>
+        <item>4 second</item>
+    </string-array>
+
+
+    <string-array name="appear_time_reverse">
+        <item>1 second</item>
+        <item>2 second</item>
+        <item>3 second</item>
+        <item>4 second</item>
+    </string-array>
+
+    <string-array name="val_appear_time">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </string-array>
+
+    <string-array name="val_appear_time_reverse">
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </string-array>
+
+    <string-array name="digit">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+
+    </string-array>
+
+
+</resources>
